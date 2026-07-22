@@ -67,7 +67,7 @@ The following links are useful for when the BOM will be made.
 + 0.91" OLED: https://www.aliexpress.com/item/32836691660.html
 ]
 
-== Schematic
+= Schematic
 
 #note[
   I spent roughly 2.5 hours on this section on 21/07
@@ -89,3 +89,26 @@ I made the schematic for the keyboard with everything wired up. I still have yet
   image("../images/rpi_and_expansion.png", width: 80%),
   caption: [Schematic of the Pi Pico and Expansion Boards]
 )
+
+= New Day, New Keyboard
+
+Originally, I was gonna make this like a proper report. Now, its just my ramblings.
+
+#note[
+  Spent 4 hours redesigning and its not done :(
+]
+
+So, I added LEDs, in this BIG MASSIVE block that looks really ugly. It also turns out that I had one extra extender that I just didn't need, so that was removed.
+Finally, LEDS ARE AN ABSOLUTE PAIN DON'T GET ME STARTED. FIRST THEY NEED A RESISTOR ON THE DATA IN. SECOND THE SCHEMATIC ALONE TAKES UP 7 LIGHT YEARS OF SPACE AND THIRD
+WHY ARE THEY SO ANNOYING TO PLACE ON THE PCB ITSELF. THEY NEED TO BE EXACTLY 5.08mm BELOW THE BOARD AND BACK AND THE TRACES ARE A PAIN.
+
+sorry got slightly annoyed.
+
+I moved to adding capacitors to each LED without taking a picture. there should be a commit with the leds done (without capacitors) but I didn't take a pic of it.
+
+#figure(
+  image("../images/pcb.png", width: 80%),
+  caption: [Current PCB design without many traces and without hotswappable footprints]
+)
+
+I now plan to add capacitors to the LEDs and move to hotswappable switches.
