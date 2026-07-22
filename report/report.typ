@@ -10,7 +10,7 @@
 = Initial Design
 
 #note[
-  This section (ie 1. Inital Design) took about 2.5 hours for research, writing and drawing of the design.
+  This section (ie 1. Inital Design) took about 2 hours for research, writing and drawing of the design. on 21/07
 ]
 #note[
   The template used in this report is one I made for a school project.
@@ -19,7 +19,7 @@
 The initial design was based on a drawing of the keyboard, shown in Figure 1. Since actual keyboards are staggered, this was done to make the schematic much easier to create.
 
 #figure(
-  image("../brainstorming/keys.png", width: 80%),
+  image("../images/keys.png", width: 80%),
   caption: [Initial keyboard design drawing.]
 )
 
@@ -66,3 +66,26 @@ The following links are useful for when the BOM will be made.
 + LED SK6812MINI-E: https://www.lcsc.com/product-detail/C5149201.html?s_z=n_SK6812%2520MINI-E
 + 0.91" OLED: https://www.aliexpress.com/item/32836691660.html
 ]
+
+== Schematic
+
+#note[
+  I spent roughly 2.5 hours on this section on 21/07
+]
+
+I made the schematic for the keyboard with everything wired up. I still have yet to add LEDs for each key.
+
+#figure(
+  image("../images/keys_schematic.png", width: 80%),
+  caption: [Schematic of the keys]
+)
+
+#figure(
+  image("../images/rotary_and_screen.png", width: 80%),
+  caption: [Schematic of the Rotary Encoder and Screen]
+)
+
+#figure(
+  image("../images/rpi_and_expansion.png", width: 80%),
+  caption: [Schematic of the Pi Pico and Expansion Boards]
+)
