@@ -9702,6 +9702,16 @@
 		)
 		(uuid "7c139b2e-5a12-4b66-875a-c901ca4513a5")
 	)
+	(label "+3V3"
+		(at 247.65 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d2021c1-9025-47d7-9d6d-1548fb68e7d3")
+	)
 	(label "SCL"
 		(at 229.87 237.49 0)
 		(effects
@@ -9912,16 +9922,6 @@
 		)
 		(uuid "d0490395-9708-4ee9-b3c7-b6629839834a")
 	)
-	(label "DIN"
-		(at 241.3 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d159243f-4e59-453d-bb86-de3cccf0d6c9")
-	)
 	(label "COL12"
 		(at 241.3 250.19 0)
 		(effects
@@ -10072,6 +10072,16 @@
 		)
 		(uuid "fb2558f7-dc34-42ae-88ab-22e2fcedaa5e")
 	)
+	(label "VSYS"
+		(at 265.43 201.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc670cf6-ba40-4927-a7be-431d375a2920")
+	)
 	(label "COL18"
 		(at 293.37 227.33 0)
 		(effects
@@ -10081,6 +10091,30 @@
 			(justify left bottom)
 		)
 		(uuid "fd048398-26bc-4f0e-a791-49d3d735b8ff")
+	)
+	(global_label "DIN"
+		(shape input)
+		(at 241.3 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f781cd1d-6c5b-4c1b-aed3-bab9e1df8180")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.1095 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
@@ -10116,7 +10150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 90.17 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10161,6 +10195,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 90.17 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +10263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10298,7 +10343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 53.34 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10380,7 +10425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 349.25 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10425,6 +10470,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 349.25 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 349.25 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10484,7 +10540,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10539,6 +10595,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 120.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04b847ce-6244-4b5a-a349-d9d2bd5050fb")
 		)
@@ -10566,7 +10633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03988c18-d08a-4d79-afdd-de625708bab5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 270.51 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10626,7 +10693,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10644,7 +10711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "049cd551-3ec4-47b9-8378-ffa8311a1caa")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 270.51 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -10704,7 +10771,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10742,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 251.46 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10822,7 +10889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 190.5 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10904,7 +10971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 90.17 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10949,6 +11016,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 90.17 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11006,7 +11084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11088,7 +11166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 227.33 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11133,6 +11211,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 227.33 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11190,7 +11279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 342.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 181.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11317,6 +11406,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 181.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11374,7 +11474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 99.06 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11454,7 +11554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 312.42 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11806,7 +11906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 38.1 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11886,7 +11986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11968,7 +12068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12013,6 +12113,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12070,7 +12181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 327.66 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12244,7 +12355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 151.13 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12289,6 +12400,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 151.13 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12346,7 +12468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12426,7 +12548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 327.66 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12506,7 +12628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 205.74 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12586,7 +12708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12666,7 +12788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12746,7 +12868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 38.1 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12826,7 +12948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12908,7 +13030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12953,6 +13075,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13010,7 +13143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 175.26 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13092,7 +13225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 273.05 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13137,6 +13270,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 273.05 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13194,7 +13338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 266.7 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13274,7 +13418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 144.78 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13334,7 +13478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3166245c-298c-409f-8eb6-160bbdffae9b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 275.59 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13395,7 +13539,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13435,7 +13579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13480,6 +13624,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13539,7 +13694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 273.05 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13584,6 +13739,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 273.05 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13641,7 +13807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13721,7 +13887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 297.18 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -13801,7 +13967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 190.5 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -13881,7 +14047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 297.18 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13963,7 +14129,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14008,6 +14174,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14067,7 +14244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 196.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14112,6 +14289,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 196.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14169,7 +14357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -14251,7 +14439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14296,6 +14484,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14355,7 +14554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 334.01 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14400,6 +14599,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 334.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 334.01 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14459,7 +14669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14504,6 +14714,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 227.33 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14563,7 +14784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 334.01 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14608,6 +14829,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 334.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 334.01 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14667,7 +14899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 74.93 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14712,6 +14944,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 74.93 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14771,7 +15014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 334.01 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14816,6 +15059,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 334.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 334.01 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14875,7 +15129,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 181.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14920,6 +15174,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 181.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14977,7 +15242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 266.7 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15037,7 +15302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460e0103-0657-47b6-a242-f505673cace1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 236.22 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -15098,7 +15363,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -15136,7 +15401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 53.34 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -15216,7 +15481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 129.54 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -15298,7 +15563,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 44.45 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15343,6 +15608,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 44.45 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15478,7 +15754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 59.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15523,6 +15799,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 59.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15580,7 +15867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 342.9 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15660,7 +15947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 220.98 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15742,7 +16029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 59.69 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15787,6 +16074,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 59.69 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15846,7 +16144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 349.25 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15891,6 +16189,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 349.25 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 349.25 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15950,7 +16259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15995,6 +16304,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16052,7 +16372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 312.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16134,7 +16454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 120.65 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16179,6 +16499,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 120.65 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16312,7 +16643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 236.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16392,7 +16723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 175.26 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16474,7 +16805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 196.85 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16519,6 +16850,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 196.85 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16578,7 +16920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 288.29 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -16623,6 +16965,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 288.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 288.29 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -16680,7 +17033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 144.78 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16762,7 +17115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16807,6 +17160,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16864,7 +17228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16944,7 +17308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 99.06 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17024,7 +17388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 175.26 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -17106,7 +17470,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 273.05 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17151,6 +17515,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 273.05 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17208,7 +17583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 38.1 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17288,7 +17663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17368,7 +17743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 220.98 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -17450,7 +17825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 303.53 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17495,6 +17870,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 303.53 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 303.53 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17552,7 +17938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17634,7 +18020,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 288.29 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -17679,6 +18065,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 288.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 288.29 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -17736,7 +18133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 190.5 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -17818,7 +18215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 349.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17863,6 +18260,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 349.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 349.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17922,7 +18330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 318.77 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17967,6 +18375,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 318.77 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 318.77 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18026,7 +18445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 227.33 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18071,6 +18490,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 227.33 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18128,7 +18558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 53.34 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18208,7 +18638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 175.26 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18288,7 +18718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -18370,7 +18800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 227.33 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18415,6 +18845,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 227.33 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18472,7 +18913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 312.42 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18552,7 +18993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 53.34 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18632,7 +19073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 129.54 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18712,7 +19153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18794,7 +19235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 196.85 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18839,6 +19280,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 196.85 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18898,7 +19350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18943,6 +19395,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -19002,7 +19465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 181.61 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19047,6 +19510,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 181.61 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19104,7 +19578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 251.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19186,7 +19660,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19231,6 +19705,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19290,7 +19775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19335,6 +19820,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19394,7 +19890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 318.77 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -19439,6 +19935,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 318.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 318.77 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -19498,7 +20005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 135.89 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19543,6 +20050,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 135.89 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19602,7 +20120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -19647,6 +20165,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -19706,7 +20235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 120.65 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19751,6 +20280,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 120.65 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19810,7 +20350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19855,6 +20395,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19912,7 +20463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 220.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -20070,7 +20621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 105.41 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -20115,6 +20666,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 105.41 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -20172,7 +20734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 236.22 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -20333,7 +20895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 105.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20388,6 +20950,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 105.41 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de0b4d04-29c3-4b70-8b0a-6a3fadd366fd")
 		)
@@ -20414,7 +20987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8867ee94-8f9c-4b76-a637-a0731611b5b8")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 245.11 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20467,6 +21040,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 240.03 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "546dc939-692b-4ba0-8ef6-f34061a0916a")
 		)
@@ -20476,7 +21060,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20516,7 +21100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20561,6 +21145,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 166.37 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20620,7 +21215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 90.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20665,6 +21260,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 90.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20722,7 +21328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 190.5 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -20802,7 +21408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -20884,7 +21490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 273.05 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -20929,6 +21535,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 273.05 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -20986,7 +21603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 342.9 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -21068,7 +21685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 181.61 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21113,6 +21730,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 181.61 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21170,7 +21798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 297.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21250,7 +21878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 281.94 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -21332,7 +21960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21377,6 +22005,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21436,7 +22075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 135.89 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -21481,6 +22120,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 135.89 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -21540,7 +22190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 90.17 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -21585,6 +22235,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 90.17 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -21644,7 +22305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 227.33 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -21689,6 +22350,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 227.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 227.33 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -21824,7 +22496,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 257.81 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21869,6 +22541,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 257.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 257.81 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21926,7 +22609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 144.78 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22008,7 +22691,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 59.69 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -22053,6 +22736,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 59.69 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -22110,7 +22804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -22192,7 +22886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 303.53 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22237,6 +22931,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 303.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 303.53 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22296,7 +23001,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -22341,6 +23046,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -22400,7 +23116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 59.69 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22445,6 +23161,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 59.69 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22502,7 +23229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22582,7 +23309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 281.94 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22662,7 +23389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -22742,7 +23469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 53.34 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22824,7 +23551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 44.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22869,6 +23596,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 44.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22926,7 +23664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 312.42 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -23008,7 +23746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 334.01 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -23053,6 +23791,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 334.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 334.01 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -23112,7 +23861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 334.01 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23157,6 +23906,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 334.01 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 334.01 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23216,7 +23976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 59.69 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23261,6 +24021,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 59.69 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23396,7 +24167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 129.54 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -23478,7 +24249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 120.65 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -23523,6 +24294,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 120.65 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -23580,7 +24362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 68.58 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -23662,7 +24444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 257.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -23707,6 +24489,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 257.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -23840,7 +24633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 297.18 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -23922,7 +24715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23967,6 +24760,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 120.65 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -24024,7 +24828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -24106,7 +24910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 151.13 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -24161,6 +24965,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 151.13 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f20adcf8-501c-4d0b-8e81-088397e5137a")
 		)
@@ -24188,7 +25003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af6a9a37-3a4c-41b4-b67b-c952afeb1a13")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 80.01 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -24248,7 +25063,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -24286,7 +25101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 38.1 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -24366,7 +25181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 327.66 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -24448,7 +25263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 181.61 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -24493,6 +25308,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 181.61 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -24550,7 +25376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 99.06 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -24632,7 +25458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 90.17 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -24677,6 +25503,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 90.17 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -24822,7 +25659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 266.7 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -24904,7 +25741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 74.93 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -24949,6 +25786,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 74.93 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -25008,7 +25856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -25053,6 +25901,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 44.45 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -25110,7 +25969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 251.46 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -25192,7 +26051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -25237,6 +26096,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 166.37 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -25294,7 +26164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -25374,7 +26244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 327.66 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -25454,7 +26324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 205.74 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -25534,7 +26404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 38.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -25616,7 +26486,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 257.81 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -25661,6 +26531,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 257.81 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 257.81 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -25745,6 +26626,17 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 80.01 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 80.01 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -25882,7 +26774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 44.45 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25927,6 +26819,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 44.45 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25986,7 +26889,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -26031,6 +26934,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -26088,7 +27002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 175.26 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -26170,7 +27084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 242.57 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26215,6 +27129,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 242.57 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26274,7 +27199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26319,6 +27244,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26378,7 +27314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -26423,6 +27359,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -26482,7 +27429,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 318.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -26527,6 +27474,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 318.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 318.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -26586,7 +27544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 303.53 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -26631,6 +27589,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 303.53 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 303.53 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -26690,7 +27659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 212.09 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -26735,6 +27704,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 212.09 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -26792,7 +27772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 144.78 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26874,7 +27854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 120.65 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26919,6 +27899,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 120.65 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26976,7 +27967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 68.58 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -27058,7 +28049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -27103,6 +28094,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -27160,7 +28162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -27320,7 +28322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 288.29 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -27365,6 +28367,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 288.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 288.29 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -27424,7 +28437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 90.17 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -27469,6 +28482,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 90.17 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -27607,7 +28631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 166.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -27652,6 +28676,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 166.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -27711,7 +28746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 151.13 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -27766,6 +28801,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 151.13 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "713caf2b-1ea7-4e73-bdc8-67f3eddb1c86")
 		)
@@ -27792,7 +28838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d988bf29-5076-4690-9f06-2e94aead6ab3")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 229.87 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27845,6 +28891,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 234.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "982b0f1f-2aaa-42b3-a998-cff3700f2409")
 		)
@@ -27854,7 +28911,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -27892,7 +28949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 38.1 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -27972,7 +29029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 190.5 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -28052,7 +29109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 129.54 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -28132,7 +29189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -28214,7 +29271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 151.13 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28259,6 +29316,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 151.13 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28316,7 +29384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 327.66 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -28398,7 +29466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 288.29 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28453,6 +29521,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 288.29 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "441704df-4e22-4a83-ab5c-1174381b09b4")
 		)
@@ -28480,7 +29559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df89aefa-161b-4765-b0fb-567306e61901")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 80.01 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -28540,7 +29619,7 @@
 		(instances
 			(project "keeb"
 				(path "/a754da10-386a-4d11-8b4c-7b14c49d2f59"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -28578,7 +29657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 251.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -28658,7 +29737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 297.18 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -28740,7 +29819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -28785,6 +29864,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -28842,7 +29932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 281.94 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -28922,7 +30012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 220.98 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -29002,7 +30092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 205.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -29084,7 +30174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 303.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -29129,6 +30219,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 303.53 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 303.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -29188,7 +30289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 151.13 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -29233,6 +30334,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 151.13 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -29290,7 +30402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -29370,7 +30482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -29452,7 +30564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 273.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -29497,6 +30609,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 273.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -29554,7 +30677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 281.94 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -29634,7 +30757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 68.58 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29716,7 +30839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -29761,6 +30884,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -29818,7 +30952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 53.34 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29900,7 +31034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 318.77 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -29945,6 +31079,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 318.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 318.77 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -30004,7 +31149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30049,6 +31194,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30106,7 +31262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 266.7 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -30186,7 +31342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -30268,7 +31424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30313,6 +31469,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30372,7 +31539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 105.41 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -30417,6 +31584,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 105.41 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -30476,7 +31654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 303.53 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -30521,6 +31699,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 303.53 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 303.53 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -30578,7 +31767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 99.06 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -30658,7 +31847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -30740,7 +31929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 44.45 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -30785,6 +31974,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 44.45 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 44.45 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -30844,7 +32044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30889,6 +32089,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30946,7 +32157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -31026,7 +32237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 220.98 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -31106,7 +32317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -31188,7 +32399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 212.09 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -31233,6 +32444,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 212.09 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -31290,7 +32512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 266.7 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -31339,7 +32561,7 @@
 		)
 	)
 	(sheet
-		(at 426.72 81.28)
+		(at 160.02 208.28)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31355,7 +32577,7 @@
 		)
 		(uuid "3fd49664-7d2d-45dc-b863-a54ecca8ddb9")
 		(property "Sheetname" "RGB_LEDs"
-			(at 426.72 80.5684 0)
+			(at 160.02 207.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31366,7 +32588,7 @@
 			)
 		)
 		(property "Sheetfile" "leds.kicad_sch"
-			(at 426.72 97.1046 0)
+			(at 160.02 224.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

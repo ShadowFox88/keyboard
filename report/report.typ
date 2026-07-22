@@ -65,6 +65,8 @@ The following links are useful for when the BOM will be made.
 + MCP23017: https://www.aliexpress.com/item/1005009506514213.html
 + LED SK6812MINI-E: https://www.lcsc.com/product-detail/C5149201.html?s_z=n_SK6812%2520MINI-E
 + 0.91" OLED: https://www.aliexpress.com/item/32836691660.html
++ 100nF Capacitors: https://www.aliexpress.com/item/1005007470747384.html
++ 1N4148W OSD-123 Diode SMD-F: https://www.aliexpress.com/item/1005006323468521.html
 ]
 
 = Schematic
