@@ -114,3 +114,12 @@ I moved to adding capacitors to each LED without taking a picture. there should 
 )
 
 I now plan to add capacitors to the LEDs and move to hotswappable switches.
+
+= Been 3 hours. Still doing traces
+
+#note[
+  In case the title wasn't clear enough, its been another 3 hours (took an hour off for dinner).
+]
+
+I added capacitors to all of my LEDs, and changed the footprint of every switch to a hotswappable one. Now, I'm currently doing traces, which is no where near
+finished.
