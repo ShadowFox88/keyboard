@@ -145,3 +145,18 @@ the signal for my LEDs which is also another reason I had to restart, but so far
 
 I still need to finish the LED data connections, and improve some of the traces to not be right next to pads, to avoid bridging when actually soldering it. Finally, I still need to do
 the LED power connections, the OLED connections and the Rotary Encoder connections.
+
+= New Day, More Traces!!!!
+
+#note[
+  Been 2 hours today
+]
+
+So far today, I have just been moving a lot of my traces to be a little further from the pads so I don't accidentally bridge them when soldering.
+
+#figure(
+  image("../images/moving_traces.png", width: 80%),
+  caption: [Traces moved slightly]
+)
+
+The ROW traces and the LED DOUT traces are mainly the ones that I moved.
