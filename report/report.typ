@@ -169,3 +169,16 @@ The ROW traces and the LED DOUT traces are mainly the ones that I moved.
   image("../images/routing_v3.png", width: 80%),
   caption: [Routing with all LED Data Done.]
 )
+
+= Been another 3 hours, FINALLY PCB SHOULD BE FINISHED!!
+
+#note[
+  Section title, its been 3 hours. The PCB is done!
+]
+
+I finished the PCB!!!!!! 
+
+#figure(
+  image("../images/finished.png", width: 80%),
+  caption: [ITS ALL DONE!!!!!!]
+)

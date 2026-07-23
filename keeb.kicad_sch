@@ -9442,16 +9442,6 @@
 		)
 		(uuid "17fc2362-12e5-43fa-9d51-b2d3d72d8006")
 	)
-	(label "ROTBU"
-		(at 241.3 257.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c978614-e783-48da-9eec-0d87a5279325")
-	)
 	(label "COL4"
 		(at 93.98 25.4 0)
 		(effects
@@ -9511,16 +9501,6 @@
 			(justify left bottom)
 		)
 		(uuid "2145533e-2b43-44f3-87c3-7b5a0d933633")
-	)
-	(label "ROTB"
-		(at 241.3715 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22730563-0269-45d7-ae43-71b7f6254358")
 	)
 	(label "COL3"
 		(at 78.74 25.4 0)
@@ -9772,6 +9752,16 @@
 		)
 		(uuid "8e85572c-ceec-4109-a6d8-0fac6d4cd943")
 	)
+	(label "ROTB"
+		(at 241.3 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb0d397-4316-4980-9cbf-d25b5d76d771")
+	)
 	(label "COL10"
 		(at 241.3 262.89 0)
 		(effects
@@ -9841,6 +9831,16 @@
 			(justify left bottom)
 		)
 		(uuid "a73d4526-7eb9-49d7-8c7b-790e8ed39e5c")
+	)
+	(label "ROTA"
+		(at 241.3 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad80ddbc-2434-4902-a1b5-4d66ba8e355f")
 	)
 	(label "COL8"
 		(at 154.94 25.4 0)
@@ -9972,6 +9972,16 @@
 		)
 		(uuid "d9e39094-b062-4b09-9c35-7d5246c767c1")
 	)
+	(label "ROTBU"
+		(at 241.3 252.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df6f569e-dbc1-4244-8df5-205d3bdecd0e")
+	)
 	(label "COL6"
 		(at 124.46 25.4 0)
 		(effects
@@ -10051,16 +10061,6 @@
 			(justify left bottom)
 		)
 		(uuid "f37fabfb-aeeb-4178-a7b8-a72d575a80cf")
-	)
-	(label "ROTA"
-		(at 241.3 252.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f623ab95-048c-49a3-ac95-a439da7849d3")
 	)
 	(label "COL0"
 		(at 33.02 25.4 0)
