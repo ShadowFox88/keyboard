@@ -160,3 +160,12 @@ So far today, I have just been moving a lot of my traces to be a little further 
 )
 
 The ROW traces and the LED DOUT traces are mainly the ones that I moved.
+
+#note[
+  Been another hour and a half, finished the LED DOUT traces, and did some of the 5V traces.
+]
+
+#figure(
+  image("../images/routing_v3.png", width: 80%),
+  caption: [Routing with all LED Data Done.]
+)
