@@ -123,3 +123,25 @@ I now plan to add capacitors to the LEDs and move to hotswappable switches.
 
 I added capacitors to all of my LEDs, and changed the footprint of every switch to a hotswappable one. Now, I'm currently doing traces, which is no where near
 finished.
+
+#figure(
+  image("../images/pcb_routing_1.png", width: 80%),
+  caption: [Current PCB design with hotswappable footprints and some traces. This is the bad design with loads of vias.]
+)
+
+= Routing Sucks.
+
+#note[
+  Been another 2 hours, basically been grinding since the last commit.
+]
+
+Routed all of the rows and columns, restarted halfway through since it was really messy. Its a lot better now though. Only have 507 traces left. Apparently, too many vias can disrupt
+the signal for my LEDs which is also another reason I had to restart, but so far, I haven't used a single via at all. (unlike before)
+
+#figure(
+  image("../images/pcb_routing.png", width: 80%),
+  caption: [Current PCB design with hotswappable footprints and some more traces]
+)
+
+I still need to finish the LED data connections, and improve some of the traces to not be right next to pads, to avoid bridging when actually soldering it. Finally, I still need to do
+the LED power connections, the OLED connections and the Rotary Encoder connections.
