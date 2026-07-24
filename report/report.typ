@@ -126,7 +126,7 @@ finished.
 
 #figure(
   image("../images/pcb_routing_1.png", width: 80%),
-  caption: [Current PCB design with hotswappable footprints and some traces. This is the bad design with loads of vias.]
+  caption: [CurrentPCB design with hotswappable footprints and some traces. This is the bad design with loads of vias.]
 )
 
 = Routing Sucks.
@@ -181,4 +181,22 @@ I finished the PCB!!!!!!
 #figure(
   image("../images/finished.png", width: 80%),
   caption: [ITS ALL DONE!!!!!!]
+)
+
+= Holy fuck I didn't realise I could hate something more than routing traces
+
+#note[
+  Been 2 hours. Minimal progress. ALL BECAUSE OF FUSION 360.
+]
+
+So first, I export my PCB as a .step file right. Try to import that into fusion. It should work? WRONG. IT WON'T ACCEPT A FILE WITH THE NAME ".step". THAT TOOK A SOLID 40 MINUTES
+TO DEBUG I KEPT CHANGING EXPORT SETTINGS AND NOTHING WORKED.
+
+Then, since I used the Kalix hotswappable sockets, I needed to add Switches to each hole for me to be able to line it up properly. I get through like half of the keys.
+THEN I REALISE THE MODEL I USED WAS WRONG AND CAME WITH AN LED IN THE DAMN SWITCH THAT WAS GOING THROUGH MY DIODE ON THE BOTTOM. THEN FUSION WON'T LET ME DELETE THE LED SO 
+I NEED TO GO FIND A DIFFERENT MODEL. AND BECAUSE YOU CAN'T COPY AND MULTI PASTE WITH POINT TO POINT IT TAKES SO LONG TO PLACE EACH KEY.
+
+#figure(
+  image("../images/fusion_v1.png", width: 80%),
+  caption: [The Design in Fusion for now]
 )
