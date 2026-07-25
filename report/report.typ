@@ -200,3 +200,18 @@ I NEED TO GO FIND A DIFFERENT MODEL. AND BECAUSE YOU CAN'T COPY AND MULTI PASTE 
   image("../images/fusion_v1.png", width: 80%),
   caption: [The Design in Fusion for now]
 )
+
+= My Stabiliser Holes are Wrong.
+
+#note[
+  This took about an hour.
+]
+
+So, I finished adding my switches to the keyboard, some are ever so slightly off but it doesn't matter too much, and then added a plate and extruded it. However, the keyboard plate I
+generated from https://kbplate.ai03.com/ to match the keyboard layout I used has a big stabiliser hole. EXCEPT THE HOLES THE MX_STAB ADDS DON'T FIT IN THAT HOLE. It is now 3:45am, and
+I will not stand for this. We'll see it in the morning.
+
+#figure(
+  image("../images/fusion_v2.png", width: 80%),
+  caption: [The Design in Fusion for now v2]
+)
