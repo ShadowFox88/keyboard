@@ -1,7 +1,10 @@
 # Keyboard
 
-This is a repo dedicated to detailing the process behind making a keyboard for the [keeb program](https://keeb.hackclub.com).
+This is a repo with the files used to make my own mechanical keyboard.
 
-~I will be using Fusion360 for both electronics and case design. It will include both numpad and function keys, as well as have a potentiometer for things like volume and an OLED display for media.~
+Why? It seemed like a fun project to do.
 
-I did NOT use Fusion for electronics HOLY FUCK IT SUCKS for that.
+A journal of the time spent is available at report/report.pdf.
+
+I used KiCad, and Fusion360 for this, and had to learn both of them.
+All images are in the report.

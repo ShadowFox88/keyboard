@@ -215,3 +215,18 @@ I will not stand for this. We'll see it in the morning.
   image("../images/fusion_v2.png", width: 80%),
   caption: [The Design in Fusion for now v2]
 )
+
+= YIPPEE ITS DONE!
+
+#note[
+  Been 4 hours. Shouldn't have taken this long but I kept needing to change some small things here and there and I'm not very used to fusion. Probably would have taken a pro only
+  around 2/3. 
+]
+
+#figure(
+  image("../images/final_cad.png", width: 80%),
+  caption: [The Final CAD.]
+)
+
+I'M DONE! I extended the plate to cover the bottom frame parts as well, added mounting holes and such for the case, and filleted my corners. I also made holes in the plate
+for the OLED screen and rotary encoder. This should be it. 
